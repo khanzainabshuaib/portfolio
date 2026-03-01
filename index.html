@@ -2,127 +2,152 @@
 <html>
 <head>
     <title>Khan Zainab Mohammed Shuaib | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
+        * {
             margin: 0;
-            padding: 40px;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
         }
-        .container {
-            max-width: 950px;
-            margin: auto;
-            background: white;
-            padding: 35px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #222;
-        }
-        h2 {
-            margin-top: 30px;
-            color: #444;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
-        }
-        ul {
-            line-height: 1.8;
-        }
-        a {
-            text-decoration: none;
-            color: #0066cc;
-        }
-        .highlight {
-            background: #eef4ff;
-            padding: 10px;
-            border-radius: 6px;
-            margin-bottom: 15px;
-        }
-        .button {
-            display: inline-block;
-            padding: 8px 15px;
-            background: #0066cc;
+
+        body {
+            background: linear-gradient(to right, #141e30, #243b55);
             color: white;
-            border-radius: 5px;
-            margin-top: 10px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 34px;
+        }
+
+        header p {
+            margin-top: 5px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        section {
+            padding: 25px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 12px;
+            font-size: 22px;
+            border-left: 4px solid #ffcc70;
+            padding-left: 8px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 18px;
+            margin-top: 15px;
+            background: #ffcc70;
+            color: black;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            opacity: 0.6;
+            margin-top: 20px;
         }
     </style>
 </head>
+
 <body>
 
-<div class="container">
-
+<header>
     <h1>Khan Zainab Mohammed Shuaib</h1>
-    <p><strong>Diploma Student | Aspiring Software Developer</strong></p>
-    <p>Mumbai, India</p>
+    <p>Diploma Student | Aspiring Software Developer | Mumbai</p>
+    <a href="resume.pdf" class="btn">Download Resume</a>
+</header>
 
-    <div class="highlight">
-        🎓 Secured <strong>91.29%</strong> in Diploma (2nd Year, 3rd Semester)
+<section>
+    <h2>About Me</h2>
+    <div class="card">
+        I am a dedicated and enthusiastic Diploma student with a strong foundation in programming and software development. 
+        I have a keen interest in building practical applications that solve real-world problems. 
+        Through academic learning and self-driven projects, I continuously work on improving my technical and analytical skills. 
+        I secured 91.29% in my Diploma (2nd Year) and actively participate in technical activities to enhance my knowledge. 
+        My goal is to grow as a skilled software developer and contribute effectively to innovative projects.
+    </div>
+</section>
+
+<section>
+    <h2>Technical Skills</h2>
+    <div class="card">
+        <strong>Programming Languages:</strong> C, C++, Python, Java, JavaScript <br><br>
+        <strong>Web Technologies:</strong> HTML, CSS <br><br>
+        <strong>Database:</strong> SQLite <br><br>
+        <strong>Core Concepts:</strong> Data Structures, Object-Oriented Programming, DBMS <br><br>
+        <strong>Tools:</strong> Git, GitHub, VS Code, Android Studio
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="card">
+        <strong>Healthcare Appointment Management App</strong><br><br>
+        Developed an Android application for booking doctor appointments and managing patient medical records using Java and SQLite. 
+        Implemented CRUD operations for secure local data storage and structured the application using multiple activities for modular design. 
+        Applied input validation and basic error handling to ensure data consistency and reliability.
     </div>
 
-    <h2>About Me</h2>
-    <p>
-        I am a dedicated and passionate Diploma student with strong interest in software development.
-        I enjoy building practical projects and continuously improving my programming skills.
-    </p>
+    <div class="card">
+        <strong>Student Attendance Management System</strong><br><br>
+        Developed a web-based system to manage and track student attendance records using HTML, CSS, and JavaScript. 
+        Implemented features for adding, updating, and viewing attendance data through a user-friendly interface. 
+        Focused on clean UI design and efficient record management functionality.
+    </div>
+</section>
 
-    <h2>Education</h2>
-    <ul>
-        <li><strong>Vidyalankar Polytechnic, Wadala</strong> – Diploma (2nd Year) – 91.29%</li>
-        <li><strong>Canossa High School, Mahim</strong> – SSC – 86%</li>
-    </ul>
-
-    <h2>Technical Skills</h2>
-    <ul>
-        <li>Languages: C, C++, Python, JavaScript</li>
-        <li>Frontend: HTML, CSS</li>
-        <li>Concepts: OOP, DBMS, Data Structures</li>
-        <li>Tools: Git, GitHub, VS Code</li>
-    </ul>
-
+<section>
     <h2>Experience</h2>
-    <ul>
-        <li>
-            <strong>C++ Programming Trainee – Suven Consultants & Technology Pvt Ltd</strong><br>
-            Strengthened C++ programming fundamentals and problem-solving skills.
-        </li>
-        <li>
-            Participated in Logo Design Hackathon demonstrating creativity and innovation.
-        </li>
-        <li>
-            Completed online technical courses from Simplilearn and Great Learning.
-        </li>
-    </ul>
+    <div class="card">
+        <strong>C++ Programming Trainee – Suven Consultants & Technology Pvt Ltd</strong><br><br>
+        Strengthened C++ programming fundamentals and problem-solving skills through structured exercises. 
+        Gained practical exposure to coding logic, debugging techniques, and structured program development.
+    </div>
+</section>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <strong>Student Attendance Management System</strong><br>
-            Developed a web-based system to manage and track student attendance records.
-        </li>
-        <li>
-            <strong>Library Management System</strong><br>
-            Built a console-based application using C++ with file handling and OOP.
-        </li>
-    </ul>
-
-    <h2>Achievements</h2>
-    <ul>
-        <li>Participated in technical hackathons and coding competitions.</li>
-        <li>Presented technical papers and participated in debate and elocution events.</li>
-    </ul>
-
+<section>
     <h2>Contact</h2>
-    <p>Email: zainabshuaibkhan@gmail.com</p>
-    <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/zainab-khan-013476388">
+    <div class="card">
+        📱 Phone: 8010971024 <br><br>
+        📧 Email: zainabshuaibkhan@gmail.com <br><br>
+        🔗 LinkedIn: 
+        <a href="https://www.linkedin.com/in/zainab-khan-013476388" style="color:#ffcc70;">
             View Profile
+        </a> <br><br>
+        💻 GitHub: 
+        <a href="https://github.com/zainabshuaibkhan" style="color:#ffcc70;">
+            github.com/zainabshuaibkhan
         </a>
-    </p>
+    </div>
+</section>
 
-</div>
+<footer>
+    © 2026 Khan Zainab Mohammed Shuaib
+</footer>
 
 </body>
 </html>
